@@ -1,0 +1,37 @@
+.section-comunidad{
+position: relative;
+height: 80vh;
+}
+
+.div-botones-comunidad{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+.div-titulo-iconos{
+    display: flex;
+    gap: 25px;
+}
+
+button{
+    font-size: 2em !important;
+    color: #fafafa !important;
+}
+
+.div-video-comunidad{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.467), rgba(0, 0, 0, 0.467)), url(https://images.unsplash.com/photo-1533000971552-6a962ff0b9f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

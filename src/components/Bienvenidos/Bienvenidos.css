@@ -1,0 +1,15 @@
+.section-bienvenido{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+}
+
+.contenedor-div-bienvenido{
+    display: flex;
+    align-items: center;
+}
+.contenedor-div-bienvenido img{
+    width: 300px;
+}

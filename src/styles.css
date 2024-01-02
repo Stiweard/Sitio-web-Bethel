@@ -1,0 +1,142 @@
+@import 'normalize.css';
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 500px) {
+    .section-servicios {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        padding-bottom: 70px;
+        background: #fafafa;
+    }
+
+    .div-contenedor-servicios-img {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .div-titulo-iconos {
+        display: flex;
+        padding: 10px;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .contenedor-div-bienvenido ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .div-footer-redes {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section-bienvenido {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fafafa;
+    }
+
+    .contenedor-div-bienvenido {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .div-nosotros-img {
+        background-image: url(https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+        width: 100vw;
+        background-position: center;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-nosotros {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-div-nosotros {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #e8eceb;
+        flex-direction: column;
+    }
+
+    .contenedor-nosotros-contenido {
+        width: 100%;
+        height: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div-botones-comunidad p{
+        padding: 10px;
+    }
+
+    .section-comunidad {
+        position: relative;
+        height: auto;
+    }
+
+    #no-resposive{
+        display: none;
+    }
+
+    .div-botones-comunidad {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contenedor-div-bienvenido h1{
+        text-align: center;
+    }
+
+    .contenedor-nosotros-contenido h1{
+        text-align: center;
+    }
+
+    .div-descripcion-servicios h1{
+        text-align: center;
+    }
+
+    .div-botones-comunidad p{
+        color: #fff;
+    }
+
+    .div-footer-informacion {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
